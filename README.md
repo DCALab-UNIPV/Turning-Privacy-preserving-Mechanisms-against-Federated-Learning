@@ -15,13 +15,16 @@ The experimental results show the effectiveness of our attack in both its modes,
 
 ## Link: 
 - [Turning Privacy preserving Mechanisms against Federated Learning (Arxiv)](https://arxiv.org/abs/2305.05355)
+- [Turning Privacy preserving Mechanisms against Federated Learning (CCS23)](https://dl.acm.org/doi/abs/10.1145/3576915.3623114)
 
 
 ## Cite
 
-    @article{arazzi2023turning,
-        title={Turning Privacy-preserving Mechanisms against Federated Learning},
+    @inproceedings{arazzi2023turning,
+        title={Turning privacy-preserving mechanisms against federated learning},
         author={Arazzi, Marco and Conti, Mauro and Nocera, Antonino and Picek, Stjepan},
-        journal={arXiv preprint arXiv:2305.05355},
+        booktitle={Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security},
+        pages={1482--1495},
         year={2023}
     }
+
