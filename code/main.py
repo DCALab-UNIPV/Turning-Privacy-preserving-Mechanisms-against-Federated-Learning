@@ -265,7 +265,7 @@ while 1:
         mae_test, rmse_test = loss(server, test_data)
     else:
         count += 1
-    if count > 5 or rmse < 1.79:
+    if count > 5:
         print('not improved for 5 epochs, stop trianing')
         break
 
